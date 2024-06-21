@@ -10,8 +10,9 @@ import (
 	"regexp"
 	"strings"
 	"time"
-	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
+
 	"github.com/go-shiori/go-readability"
+	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
 
 type ArticleProvider interface {
